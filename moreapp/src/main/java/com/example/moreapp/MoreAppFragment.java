@@ -33,8 +33,6 @@ public class MoreAppFragment extends Fragment implements MoreAppAdapter.CallBcac
     RecyclerView recyclerView;
     MoreAppAdapter adapter;
     public ArrayList<Items> itemsArrayList;
-
-
     public static String url;
 
     @Nullable
@@ -42,12 +40,11 @@ public class MoreAppFragment extends Fragment implements MoreAppAdapter.CallBcac
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.more_app_fragment , container , false);
 
-
+        getActivity().setTitle("More Apps");
         itemsArrayList = new ArrayList<>();
         recyclerView = (RecyclerView) view.findViewById(R.id.recycler_view);
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getActivity());
         recyclerView.setLayoutManager(linearLayoutManager);
-
         adapter = new MoreAppAdapter(getActivity() , itemsArrayList , this);
 
 

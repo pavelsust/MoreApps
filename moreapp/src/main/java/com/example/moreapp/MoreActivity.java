@@ -45,6 +45,7 @@ public class MoreActivity extends AppCompatActivity implements MoreAppAdapter.Ca
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        getSupportActionBar().setTitle("More Apps");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         itemsArrayList = new ArrayList<>();
