@@ -100,3 +100,9 @@ public class AppController extends Application {
         MoreAppFragment.url = "your json file link";
 		
 ```		
+
+
+License
+=======
+
+Licensed under the MIT License. See the [LICENSE.md](LICENSE.md) file for more details.
