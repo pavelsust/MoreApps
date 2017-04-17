@@ -64,7 +64,21 @@ public class AppController extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
+	  /// initialized more app library 
         app = new App(getApplicationContext());
     }
 }
 ```
+
+2. Add Internet permissions and Application class in your Androidmanifest 
+
+```xml
+
+<uses-permission android:name="android.permission.INTERNET" />
+
+<application
+        android:name=".AppController"
+	...........
+	....
+	
+</application>
