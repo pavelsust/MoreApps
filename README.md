@@ -8,3 +8,5 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/paveltech/MoreApps/master/screen%20shot.png" width="350"/>
 </p>
+
+<h4>To use this library add this dependency into your gradle</h4>
