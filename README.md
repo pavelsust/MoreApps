@@ -19,3 +19,9 @@ allprojects {
 		}
 	}
 ```
+
+```xml
+dependencies {
+    compile 'com.github.paveltech:MoreApps:1.2'
+}
+```
