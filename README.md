@@ -1,6 +1,6 @@
 # More Apps in Play Store
 
-<h4> As a individual developer I have to copy paste some common code to add "More Apps" feature in my applications. It's pathetic to add common codes in all applications and some times it makes silly mistake and have to fix it again. So I think why don't I made a library just write two/three line code and get all the features. </h4>
+<h4> As a individual developer I have to copy and paste some common code to add "More Apps" feature in my applications. It's a pathetic work to add common codes in all applications and some times it makes silly mistakes and have to fix it again. So I thought  why don't I make a library which can make my work simple. By writing two/three line of code and get all the features. </h4>
 
 
 <p align="center">
