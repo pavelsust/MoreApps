@@ -12,6 +12,8 @@
 
 You can download from JitPack. [![](https://jitpack.io/v/paveltech/MoreApps.svg)](https://jitpack.io/#paveltech/MoreApps)
 
+Add this dependency in your `build.gradle`: 
+
 ```groovy
 allprojects {
 	repositories {
