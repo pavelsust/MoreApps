@@ -14,9 +14,8 @@ You can download from JitPack. [![](https://jitpack.io/v/paveltech/MoreApps.svg)
 
 ```groovy
 allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
+	repositories {
+		maven { url 'https://jitpack.io' }
 		}
 	}
 ```
