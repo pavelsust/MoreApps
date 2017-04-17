@@ -1,6 +1,5 @@
 package com.example.moreapp;
 
-import android.app.Application;
 import android.content.Context;
 import android.text.TextUtils;
 
@@ -12,17 +11,12 @@ import com.android.volley.toolbox.Volley;
  * Created by android on 4/16/2017.
  */
 
-public class App extends Application{
+public class App{
 
     public RequestQueue requestQueue;
     private static App mInstance;
     public static Context context;
-    @Override
-    public void onCreate() {
-        super.onCreate();
-        mInstance = this;
 
-    }
 
     public static Context getContext(){
         return App.context;
@@ -34,7 +28,7 @@ public class App extends Application{
 
     public RequestQueue getRequestQueue(){
         if (requestQueue==null){
-            requestQueue = Volley.newRequestQueue(getApplicationContext());
+            requestQueue = Volley.newRequestQueue(context);
         }
         return requestQueue;
     }
