@@ -12,7 +12,7 @@ import com.android.volley.toolbox.Volley;
  * Created by android on 4/16/2017.
  */
 
-public class App extends Application {
+public class App extends Application{
 
     public RequestQueue requestQueue;
     private static App mInstance;
