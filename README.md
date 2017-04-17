@@ -75,10 +75,9 @@ public class AppController extends Application {
 ```xml
 
 <uses-permission android:name="android.permission.INTERNET" />
-
-<application
+ <application>
         android:name=".AppController"
-	...........
-	....
-	
-</application>
+         ......................
+	 ......................
+    </application>
+ ```
