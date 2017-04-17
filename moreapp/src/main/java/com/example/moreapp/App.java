@@ -18,6 +18,8 @@ public class App{
     public static Context context;
 
 
+
+
     public static Context getContext(){
         return App.context;
     }
