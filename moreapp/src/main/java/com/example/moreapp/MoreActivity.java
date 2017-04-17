@@ -108,8 +108,6 @@ public class MoreActivity extends AppCompatActivity implements MoreAppAdapter.Ca
 
         movieReq.setShouldCache(false);
 
-
-
         // Adding request to request queue
         App.getInstance().addToRequestQueue(movieReq);
     }
