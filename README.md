@@ -30,10 +30,10 @@ dependencies {
     [
 
 	{
-		"name": "Hindi Hd Video Songs",
+		"name": "Your App Name",
 		"rating": 5,
-		"package_name": "com.creativeapp.hindihdvideosongs",
-		"image": "https://lh3.googleusercontent.com/6iIY_NJxR4pgRTcBxyfTyIo8NznqnX0WB0FKFRNk0cDFm45Wu8W0OAImQQ2GSydGTdQ=w300"
+		"package_name": "package name",
+		"image": "icon image link"
 	},
 
 	{
