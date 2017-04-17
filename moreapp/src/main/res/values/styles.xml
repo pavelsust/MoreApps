@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="MoreAppTheam" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#4CAF50</item>
+        <item name="colorPrimaryDark">#388E3C</item>
+        <item name="colorAccent">#FFFFFF</item>
+    </style>
+
+    <style name="MoreAppTheam.AppMoreApp" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="MoreAppTheam.AppPopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

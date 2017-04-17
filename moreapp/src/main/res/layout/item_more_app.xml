@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingBottom="@dimen/size_byte"
+    android:paddingLeft="@dimen/size_word"
+    android:paddingRight="@dimen/size_word"
+    android:paddingTop="@dimen/size_byte">
+
+    <ImageView
+        android:id="@+id/movieThumbnail"
+        android:layout_width="@dimen/movie_thumbnail_width"
+        android:layout_height="@dimen/movie_thumbnail_height"
+
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:id="@+id/movieTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/_13sdp"
+        android:layout_toRightOf="@id/movieThumbnail"
+        android:textColor="@color/cardview_dark_background"
+        android:alpha="0.87"
+        android:text="pavel"
+        android:padding="@dimen/size_half_byte"
+        android:textSize="@dimen/size_text_primary" />
+
+    <TextView
+        android:id="@+id/movieReleaseDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/movieTitle"
+        android:alpha="0.87"
+        android:padding="@dimen/size_half_byte"
+        android:textSize="@dimen/size_text_secondary" />
+
+    <RatingBar
+        android:id="@+id/movieAudienceScore"
+        style="@android:style/Widget.Holo.RatingBar.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/movieThumbnail"
+        android:layout_below="@id/movieReleaseDate"
+        android:isIndicator="true"
+        android:max="5"
+        android:numStars="0" />
+
+    <Button
+        android:text="install"
+        android:layout_width="75dp"
+        android:layout_height="30dp"
+        android:alpha="1"
+        android:background="#4CAF50"
+        android:padding="@dimen/size_half_byte"
+        android:layout_alignBottom="@+id/movieReleaseDate"
+        android:layout_toLeftOf="@+id/movieReleaseDate"
+        android:layout_toStartOf="@+id/movieReleaseDate"
+        android:id="@+id/button" />
+</RelativeLayout>
