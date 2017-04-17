@@ -14,7 +14,7 @@ import com.android.volley.toolbox.Volley;
 public class App{
 
     public RequestQueue requestQueue;
-    private static App mInstance;
+    private static App Instance;
     public static Context context;
 
 
@@ -23,7 +23,7 @@ public class App{
     }
 
     public static synchronized App getInstance() {
-        return mInstance;
+        return Instance;
     }
 
     public RequestQueue getRequestQueue(){
