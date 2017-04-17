@@ -27,7 +27,7 @@ dependencies {
 ```
 
 ### Json File Ready : make your json file looks like...
-[
+    [
 
 	{
 		"name": "Hindi Hd Video Songs",
@@ -48,6 +48,5 @@ dependencies {
 		"package_name": "com.creativeapp.usashopping",
 		"image": "https://lh3.googleusercontent.com/PiGn6kwmGltl7QEgMUwHtdpCJ7sPrTZOpY-ezN5zK6OJR0GNAB7c64yTMEI497Lhb9s=w300"
 	}
-
-
-]
+	
+    ]
