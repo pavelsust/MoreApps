@@ -25,3 +25,29 @@ dependencies {
     compile 'com.github.paveltech:MoreApps:1.2'
 }
 ```
+
+### Json File Ready : make your json file looks like...
+[
+
+	{
+		"name": "Hindi Hd Video Songs",
+		"rating": 5,
+		"package_name": "com.creativeapp.hindihdvideosongs",
+		"image": "https://lh3.googleusercontent.com/6iIY_NJxR4pgRTcBxyfTyIo8NznqnX0WB0FKFRNk0cDFm45Wu8W0OAImQQ2GSydGTdQ=w300"
+	},
+
+	{
+		"name": "Call Blocker",
+		"rating": 4.8,
+		"package_name": "com.playoffstudio.callblocker",
+		"image": "https://lh3.googleusercontent.com/CnqXt1s12Mzu-rzMcUEQpdmsk3SlBSHCHtmc02T8pTqngJeij6hLFIgcwi1R8G-Fs-am=w300"
+	},
+	{
+		"name": "USA Online Shopping",
+		"rating": 5,
+		"package_name": "com.creativeapp.usashopping",
+		"image": "https://lh3.googleusercontent.com/PiGn6kwmGltl7QEgMUwHtdpCJ7sPrTZOpY-ezN5zK6OJR0GNAB7c64yTMEI497Lhb9s=w300"
+	}
+
+
+]
