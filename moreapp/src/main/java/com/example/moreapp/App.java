@@ -14,23 +14,24 @@ import com.android.volley.toolbox.Volley;
 public class App{
 
     public RequestQueue requestQueue;
-    private static App nstance;
+    private static App mInstance;
     public static Context context;
 
 
-
-
+    public void init(){
+        mInstance = this;
+    }
     public static Context getContext(){
         return App.context;
     }
 
     public static synchronized App getInstance() {
-        return nstance;
+        return mInstance;
     }
 
     public RequestQueue getRequestQueue(){
         if (requestQueue==null){
-            requestQueue = Volley.newRequestQueue(context);
+            requestQueue = Volley.newRequestQueue(getContext());
         }
         return requestQueue;
     }
