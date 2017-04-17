@@ -52,4 +52,19 @@ dependencies {
     ]
 
 
-### Configuration : Now have to configure java code. 
+### Configuration : Now have to configure java code.
+
+1.First make a class which can extends Application class. Looks like 
+
+```java
+
+public class AppController extends Application {
+
+    App app;
+    @Override
+    public void onCreate() {
+        super.onCreate();
+        app = new App(getApplicationContext());
+    }
+}
+```
