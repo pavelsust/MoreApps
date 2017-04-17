@@ -34,6 +34,8 @@ public class MoreActivity extends AppCompatActivity implements MoreAppAdapter.Ca
     //= "http://banglahdnatok.com/more_app.txt";
     Toolbar toolbar;
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
